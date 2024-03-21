@@ -1,0 +1,295 @@
+@media only screen and (max-width: 550px) {
+
+    img {
+        width: 100%;
+    }
+
+    .top-header,
+    .header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+        /* padding: 10px 0; */
+    }
+
+    .hero-section h1 {
+        color: #fff;
+        text-align: center;
+        padding: 150px 0 0 0;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .school-information {
+        padding: 0 0 15px 0;
+    }
+
+    .school-information h1 {
+        color: #000;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+        padding: 40px 0 10px 0;
+    }
+
+    .cards {
+        padding: 0px 20px 60px 20px;
+    }
+
+    .sch-info .hours h2 {
+        font-size: 18px;
+        padding-bottom: 0;
+    }
+
+    .school-information .check-line i {
+        color: #dd8222;
+        font-weight: 900;
+    }
+
+    .school-information .check-line span {
+        font-size: 13.5px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .sch-info {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .sch-info .hours {
+        padding-left: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .sch-info .hours p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .sch-info .hours p {
+        font-size: 13.5px;
+        font-family: "Roboto", sans-serif;
+        line-height: 22px;
+        margin-bottom: 2px;
+    }
+
+    .contact-info .right {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-left: 0;
+    }
+
+    .contact .right h1 {
+        color: #000;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+        padding: 20px 0 10px 0;
+        text-align: center;
+    }
+
+    .check-line {
+        margin-left: 20px;
+    }
+
+    .check-line span {
+        font-size: 13.5px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .check-line img {
+        width: 38px;
+    }
+
+    .contact .right-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .contact-botoom {
+        padding: 0 0 0 0;
+    }
+
+    
+
+    .contact-botoom .container .row .col .right-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-top: 20px;
+    }
+
+    .district-details {
+        padding: 30px;
+    }
+
+    .district-details .container .row {
+        background: var(--secondary-bg-color);
+        padding: 30px;
+        border-radius: 265px;
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+
+    .district-details .container .row .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .district-details .container .row .content h1 {
+        text-align: center;
+    }
+
+    .headings {
+        font-family: "Poppins", sans-serif !important;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .para {
+        font-family: "Roboto", sans-serif;
+        font-size: 13.5px;
+        line-height: 190%;
+    }
+
+    .district-text.para.pt-4 p {
+        margin: 0;
+    }
+
+    .district-img {
+        text-align: center;
+        padding: 0 !important;
+    }
+
+    .district-img img {
+        width: 100%;
+        /* width: 430px; */
+    }
+
+    .hero-section {
+        background: url('../images/hero-section-bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        min-height: 250px;
+    }
+
+    .hero-section h1 {
+        color: #fff;
+        text-align: center;
+        padding: 60px 0 0 0;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .flagami img {
+        margin-top: -100px;
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .fa-location-dot,
+    .fa-phone {
+        color: var(--secondary-bg-color);
+        background: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .mobile-footer {
+        display: block;
+
+    }
+
+    .icon-box {
+        display: flex;
+        gap: 10px;
+    }
+
+    .icon-text {
+        /* width: 145px !important; */
+    }
+
+    .icon-text a {
+        font-size: 13px;
+        line-height: 150%;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-wrap: wrap; */
+    }
+    .order-reverse {
+        order: 2;
+    }
+    
+    .order-reverse-info {
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .mobile-header {}
+
+    .mobile-header .container .header-content .logo {
+        width: 100px;
+    }
+
+    .mobile-header .container .header-content .mob-btn .mob-sign-up {
+        padding: 5px 12px;
+        border-radius: 5px;
+        /* outline: none;  */
+        border: 2px solid transparent;
+        background: #fff;
+        color: var(--primary-bg-color);
+        font-size: 10px;
+        font-weight: 600;
+        font-family: "Roboto", sans-serif;
+        margin: 0px 3px;
+    }
+
+    .mobile-header .container .header-content .mob-btn .mob-login {
+        padding: 5px 12px;
+        border-radius: 5px;
+        outline: none;
+        border: 2px solid #fff;
+        background: transparent;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 600;
+        font-family: "Roboto", sans-serif;
+        margin: 0px 3px;
+    }
+
+}

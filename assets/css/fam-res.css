@@ -1,0 +1,307 @@
+@media screen and (max-width: 550px) {
+    
+    
+    .hero-section {
+        height: 100%;
+        min-height: 250px;
+    }
+    .hero-section h1 {
+        padding: 60px 0 0 0;
+        font-size: 24px;
+    }
+    .flagami img {
+        margin-top: -130px;
+    }
+    .cards {
+        padding: 20px 22px 40px 22px;
+    }
+    .pbd_wellnes-block {
+        padding: 20px 22px 60px 22px;
+    }
+    .pbd_school-resource {
+        background-color: #F0FAFF;
+        background-image: none;
+        padding: 20px 20px 80px 20px;
+    }
+    .pbd_wellnes-block h1 {
+        font-size: 24px;
+        padding: 20px 0px;
+    }
+    .pbd_school-resource .headings {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 24px;
+    }
+    .pbd_school-resource .pbd_img-card-block .pbd_body {
+        margin-top: 20px;
+    }
+    .pbd_school-resource .pbd_img-card-block .pbd_body h3 {
+        font-size: 12px;
+    }
+    .pbd_school-resource .pbd_img-card-block .pbd_body a {
+        font-size: 10px;
+    }
+    .title-information .container .title-info-content h1 {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 24px;
+    }
+    .title-information {
+        display: none;
+    }
+    .title-mobile-section {
+        display: block;
+        padding: 20px;
+    }
+    .title-information .container .title-info-content .middle {
+        margin-top: 200px;
+    }
+    .title-information .container .title-info-content {
+        text-align: left;
+    }
+    .administrator h6 {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+        line-height: 140%;
+    }
+
+    .administrator-1 h6 {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+        line-height: 140%;
+    }
+
+    .info.first-info .info-body p{
+
+        color: var(--primary-bg-color);
+        line-height: 140%;
+        font-size: 12px;
+        text-decoration: underline;
+    }
+    .administrators {
+        display: grid;
+        grid-template-columns: 60% 30%;
+        align-items: center;
+        /* padding: 0px 40px; */
+    }
+    .administrators .arrow-img {
+        width: 80%;
+        justify-self: end;
+    }
+    
+    .administrators .administrator .first-info .info-body {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .administrators-1 .administrator-1 .first-info .info-body {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .administrators-1 {
+        display: grid;
+        grid-template-columns: 30% 60%;
+        align-items: center;
+        /* padding: 0px 40px; */
+        justify-content: end;
+        margin-top: -30px;
+    }
+
+    .district-resources .container .district-resources-content {
+        padding: 40px 0 0 0;
+    }
+
+    .administrators-1 .arrow-img {
+        width: 80%;
+        justify-self: start;
+    }
+    
+    .administrators-1 .administrator .first-info .info-body {
+        padding-top: 20px;
+    }
+
+    .project-upstart {
+        background: #0184BF;
+        padding: 30px 30px 60px 30px;
+        color: #fff;
+        text-align: center;
+        border-radius: 220px;
+    }
+    .project-upstart .upstart-body {
+        padding-top: 20px;
+    }
+    .project-upstart .upstart-body h3 {
+        font-size: 24px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+    }
+    .project-upstart .upstart-body p {
+        line-height: 140%;
+        font-size: 15px;
+        text-decoration: underline;
+        margin: 0;
+    }
+
+    .wellnes-block-dekstop {
+        display: none;
+    }
+    .wellnes-block-mobile {
+        display: block;
+        position: relative;
+      }
+      .arrows {
+        position: absolute;
+        bottom: 0;
+    }
+    .carousel-control-prev {
+        left: 35% !important;
+    }
+    .carousel-control-next {
+        right: 35% !important;
+    }
+    .carousel-item {
+        padding: 10px;
+    }
+    .wellnes-block-mobile .card-body {
+        color: #fff;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .wellnes-block-mobile .card-body .card-title {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+    }
+    .wellnes-block-mobile .card-body .card-text {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
+    }
+    .hello {
+        background: #0184BF !important;
+        width: 15px !important;
+        padding: 21px 18px 12px 16px !important;
+        border-radius: 50% !important;
+        height: 17px !important;
+        
+        opacity: 1 !important;
+        
+    }
+    
+    .prev-next-buttons {
+        position: relative;
+        bottom: -10px;
+    }
+    .carousel-control-prev-icon {
+        width: 20px !important;
+    }
+
+    .carousel-control-next-icon {
+        width: 20px !important;
+    }
+    #carouselExample {
+        position: relative;
+    }
+
+    .cards .row {
+        gap: 24px;
+    }
+    .cards h1 {
+        font-size: 24px;
+        padding: 0;
+    }
+
+    .district-details .container .pbd_fortify-florida {
+        margin-top: -50px;
+      }
+      .custom-container {
+        width: 350px !important;
+    }
+    .district-img img {
+        width: 100%;
+    }
+    .district-details .container .row .content {
+        padding: 0;
+    }
+    .headings {
+        font-size: 24px;
+    }
+    .district-details .container .pbd_fortify-florida p {
+        font-size: 12px;
+        margin: 0;
+    }
+    .district-details .container .row {
+        padding: 10px 2px 10px 50px;
+        align-items: center;
+    }
+    .district-details {
+        padding: 60px 0 10px 0;
+    }
+    
+    .district-resources .container .district-resources-content .district-resources-banner .resource-banner-content h2 {
+        padding: 0px;
+        font-size: 20px;
+    }
+    .district-resources .container .district-resources-content .district-resources-banner .resource-banner-content p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .district-resources .container .district-resources-content .district-resources-banner .resource-banner-content {
+        width: 330px;
+        margin: auto;
+        padding: 25px 50px;
+        top: -100px;
+        border-radius: 20px;
+    }
+    .district-resources .container .district-resources-content .district-resources-banner img {
+        height: 200px;
+    }
+    
+    .district-resources .container .district-resources-content .district-resources-banner {
+        padding-top: 20px;
+    }
+    .top-header, .header{
+        display: none;
+    }
+    .mobile-header {
+        display: block;
+    }
+
+    .footer {
+        display: none;
+    }
+    .mobile-footer {
+        display: block;
+    }
+    .icon-box {
+        display: flex;
+        gap: 10px;
+    }
+
+    
+
+    .icon-text a {
+        font-size: 13px;
+        line-height: 150%;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .fa-location-dot,
+    .fa-phone {
+        color: var(--secondary-bg-color);
+        background: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,681 @@
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+.brown-button {
+  text-decoration: none;
+  font-size: 16px;
+  background: #dd8222;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  line-height: 29px;
+}
+
+.border-button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #0184bf;
+  border: 2px solid #0184bf;
+  /* line-height: 29px; */
+}
+
+.fill-button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #0184bf;
+  background-color: #0184bf;
+  /* line-height: 29px; */
+}
+
+.three-buttons {
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+  padding: 10px 0px;
+}
+
+.header {
+  background: #0184bf;
+}
+
+.header .logo img {
+  width: 100%;
+}
+
+.header .header-menu .menu {
+  display: flex;
+  gap: 60px;
+  justify-content: flex-end;
+}
+
+.header .bottom-menu {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-menu {
+  width: 100%;
+}
+
+.header .header-menu .menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header .header-menu .menu a li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-logo {
+  padding: 20px 10px;
+  margin-top: -40px !important;
+}
+
+.hero-section {
+  background: url('../images/hero-section-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-height: 600px;
+}
+
+.hero-section h1 {
+  color: #fff;
+  text-align: center;
+  padding: 150px 0 0 0;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.flagami img {
+  margin-top: -330px;
+  width: 100%;
+  padding: 0 30px;
+}
+
+
+.school-information {
+  padding: 0 0 80px 0;
+}
+
+.school-information h1 {
+  color: #000;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding:80px 0px;
+}
+
+.school-information .check-line i {
+  color: #dd8222;
+  font-weight: 900;
+}
+
+.school-information .check-line span {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.sch-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sch-info .hours {
+  padding-left: 22px;
+  padding-top: 40px;
+}
+
+.sch-info .hours h2 {
+  color: #0184bf;
+  font-weight: 700;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.sch-info .hours p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 22px;
+}
+
+.contact .right h1 {
+  color: #000;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding: 0 0 30px 0;
+}
+
+.contact .right i {
+  color: #dd8222;
+  font-weight: 900;
+}
+
+.contact-info .right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 80px;
+}
+
+.check-line span {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.pbd_school-resource .headings {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/* Azam Css */
+
+.contact-botoom {
+  padding: 0 0 80px 0;
+}
+
+.contact .right-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 74px;
+  margin-left: 10px;
+}
+
+.contact-botoom .container .row .col .right-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.check-line img {
+  width: 38px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-bg-color: #0184bf;
+  --secondary-bg-color: #dd8222;
+  --text-color: #212121;
+}
+
+.headings {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.para {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 190%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.mobile-header {
+  display: none;
+}
+
+.mobile-header {
+  background: var(--primary-bg-color);
+}
+
+.mobile-header .container .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-header .container .header-content .logo {
+  width: 130px;
+}
+
+.mobile-header .container .header-content .header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+}
+
+.mobile-header .container .header-content .mob-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-header .container .header-content .hamburgar {
+  display: block;
+}
+
+.mobile-header .container .header-content .hamburgar .sidepanel {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  background: var(--primary-bg-color);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.mobile-header .container .header-content .hamburgar .sidepanel .nav-menu .nav-items a {
+  padding: 8px;
+  text-decoration: none;
+  /* font-size: 25px; */
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.mobile-header .container .header-content .hamburgar .sidepanel .nav-menu .nav-items a:hover {
+  color: #f1f1f1;
+}
+
+.mobile-header .container .header-content .hamburgar .sidepanel .contactUs-btn {
+  margin: 15px 28px;
+}
+
+.mobile-header .container .header-content .hamburgar .sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-top: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobile-header .container .header-content .hamburgar .openbtn {
+  cursor: pointer;
+  background: transparent !important;
+  /* border: 2px solid #fff; */
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0;
+}
+
+.mobile-header .container .header-content .hamburgar .openbtn:hover {
+  background-color: red;
+}
+
+.mobile-header .container .header-content .mob-btn .mob-sign-up {
+  padding: 6px 15px;
+  border-radius: 5px;
+  /* outline: none;  */
+  border: 2px solid transparent;
+  background: #fff;
+  color: var(--primary-bg-color);
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  margin: 0px 3px;
+}
+
+.mobile-header .container .header-content .mob-btn .mob-login {
+  padding: 6px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  margin: 0px 3px;
+}
+
+.district-details {
+  padding: 60px 0 60px 0;
+
+}
+
+.district-details .container .row {
+  background: var(--secondary-bg-color);
+  padding: 40px 30px;
+  border-radius: 265px;
+  /* text-align: center; */
+}
+
+.district-details .container .pbd_fortify-florida {
+  margin-top: -300px;
+}
+
+.district-details .container .row .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.district-img {
+  text-align: right;
+}
+
+.district-img img {
+  width: 430px;
+}
+
+.cards {
+  padding: 60px 0px;
+}
+
+.cards .card {
+  border: none !important;
+  padding: 0 !important;
+  background: var(--primary-bg-color);
+  border-radius: 25px;
+}
+
+.cards .card img {
+  border-radius: 20px;
+}
+
+.cards .row {}
+
+.cards .row .card-body {
+  border: none;
+  background: var(--primary-bg-color);
+  /* margin-top: -10px; */
+  color: #fff;
+  border-radius: 25px;
+}
+
+.cards .row .card-body .card-title {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.cards .row .card-body .card-text {
+  font-size: 16px !important;
+  width: 270px;
+}
+
+.footer {
+  background: var(--primary-bg-color);
+  padding: 60px 0px;
+
+  /* font-family: "Roboto", sans-serif; */
+}
+
+.footer .footer-logo {
+  /* border: 2px solid black; */
+}
+
+.footer .container .row .col-lg-4 .icons-box {
+  padding: 45px 0px 0px 0px;
+}
+
+.footer .container .row .col-lg-4 .icons-box .icon-box .icon-text {
+  width: 230px;
+}
+
+.fa-location-dot,
+.fa-phone {
+  color: var(--secondary-bg-color);
+  background: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.mobile-footer {
+  background: var(--primary-bg-color);
+  /* border: 2px solid red; */
+  padding: 60px 0px;
+  display: none;
+}
+
+.mobile-footer .container .mobile-footer-content {}
+
+.mobile-footer .container .mobile-footer-content .mob-footer-logo {
+  width: 80%;
+  /* border: 2px solid green; */
+}
+
+.mobile-footer .container .mobile-footer-content .link {
+  margin: 30px 0px;
+}
+
+.mobile-footer .container .mobile-footer-content .link p {
+  margin: 0;
+  line-height: 190%;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+  width: 100% !important;
+}
+
+.cards h1 {
+  color: #000;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding: 0 0 60px 0;
+}
+
+.pbd_bg-pattern-one {
+  background-image: url('assets/images/pbd_pattern-misc-01.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+
+.pbd_school-resource {
+  background-color: #F0FAFF;
+  background-image: url('assets/images/pbd_pattern-misc-02.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 5%;
+  padding: 100px 0 400px 0;
+}
+
+.pbd_school-resource .row {
+  row-gap: 50px;
+}
+
+.pbd_school-resource .pbd_img-card-block .pbd_body {
+  margin-top: 30px;
+}
+
+.pbd_school-resource .pbd_img-card-block .pbd_body h3 {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 140%;
+  color: #212121;
+}
+
+.pbd_school-resource .pbd_img-card-block .pbd_body a {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  color: #0184BF;
+  text-decoration: underline;
+}
+
+.title-information .container .title-info-content {
+  /* padding: 60px 0; */
+}
+
+.title-information .container .title-info-content {
+  text-align: center;
+}
+
+.title-information .container .title-info-content .col .info-1 {
+  width: 249px;
+  margin: auto;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.title-information .container .title-info-content .col .info-1 .info {
+  /* border: 2px solid black; */
+}
+
+.title-information .container .title-info-content .col .info-1 .info .info-body {
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-information .container .title-info-content .col .info-1 .info .info-body h6 {
+  color: #212121;
+  line-height: 140%;
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 31px;
+  margin-top: 30px;
+}
+
+.title-information .container .title-info-content .col .info-1 .info .info-body p {
+  color: var(--primary-bg-color);
+  line-height: 140%;
+  font-size: 16px;
+  margin-top: 25px;
+  text-decoration: underline;
+}
+
+.title-information .container .title-info-content .middle {
+  margin-top: 120px;
+}
+
+.title-information .container .title-info-content .col .project-upstart {
+  width: 436px;
+  margin: auto;
+  background: var(--primary-bg-color);
+  border-radius: 235px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  color: #fff;
+}
+
+.title-information .container .title-info-content .col .project-upstart .upastart-img {
+  padding: 36px;
+}
+
+.title-information .container .title-info-content .col .project-upstart .upstart-body {
+  /* padding: 0 80px 113px; */
+  padding-bottom: 113px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.title-information .container .title-info-content .col .project-upstart .upstart-body h3 {
+  /* padding: 0 92px; */
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 140%;
+}
+
+.title-information .container .title-info-content .col .project-upstart .upstart-body p {
+  line-height: 140%;
+  font-size: 24px;
+  margin-top: 40px;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.district-resources {
+  /* border: 2px solid red; */
+  background: #F0FAFF;
+}
+
+.district-resources .container .district-resources-content {
+  /* border: 2px solid green; */
+  padding: 60px 0 0 0;
+}
+
+.district-resources .container .district-resources-content h1 {
+  text-align: center;
+}
+
+.district-resources .container .district-resources-content .district-resources-banner {
+  padding-top: 60px;
+}
+
+.district-resources .container .district-resources-content .district-resources-banner .resource-banner-content {
+  width: 780px;
+  margin: auto;
+  padding: 60px 0;
+  background: var(--secondary-bg-color);
+  border-radius: 50px;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  bottom: 130px;
+}
+
+.district-resources .container .district-resources-content .district-resources-banner .resource-banner-content h2 {
+  padding: 0 92px;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.district-resources .container .district-resources-content .district-resources-banner .resource-banner-content p {
+  line-height: 140%;
+  font-size: 24px;
+  margin-top: 40px;
+  text-decoration: underline;
+}
+
+.pbd_school-resource .headings {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.title-mobile-section {
+  display: none;
+}
+
+.wellnes-block-dekstop {
+  display: block;
+}
+
+.wellnes-block-mobile {
+  display: none;
+}
